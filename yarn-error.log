@@ -1,0 +1,49 @@
+Arguments: 
+  /Users/sebschwa/.nvm/versions/node/v7.5.0/bin/node /usr/local/bin/yarn add sphero
+
+PATH: 
+  /Users/sebschwa/.nvm/versions/node/v7.5.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  0.21.3
+
+Node version: 
+  7.5.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "bb8",
+    "version": "1.0.0",
+    "description": "BB-8 Sphero JS Project",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bastifantasti/bb8.git"
+    },
+    "keywords": [
+      "bb-8",
+      "sphero",
+      "js"
+    ],
+    "author": "Sebastian Felix Schwarz",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/bastifantasti/bb8/issues"
+    },
+    "homepage": "https://github.com/bastifantasti/bb8#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EACCES: permission denied, open '/Users/sebschwa/Documents/Projekte/bb8/node_modules/.yarn-integrity'
